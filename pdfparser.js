@@ -88,7 +88,7 @@ let PDFParser = (function () {
     function PdfParser(context, needRawText) {
 		//call constructor for super class
 	    stream.Transform.call(this, {objectMode: true, bufferSize: 64 * 1024});
-	
+
         // private
         let _id = _nextId++;
 
@@ -180,4 +180,3 @@ let PDFParser = (function () {
 })();
 
 module.exports = PDFParser;
-
