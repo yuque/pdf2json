@@ -1,4 +1,10 @@
 
+1.1.11 / 2019-11-30
+==================
+
+**fixes**
+  * [[`4cc09c9`](http://github.com/yuque/pdf2json/commit/4cc09c927c6653174c67283129dbf28f85f0879b)] - fix: throw error when rect not exists on dict (#2) (fengmk2 <<fengmk2@gmail.com>>)
+
 1.1.10 / 2019-09-18
 ==================
 
