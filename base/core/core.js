@@ -461,7 +461,7 @@ var PDFDocument = (function PDFDocumentClosure() {
       } catch (err) {
         info('The document information dictionary is invalid.');
       }
-      if (infoDict) {
+      if (infoDict && infoDict.has) {
         var validEntries = DocumentInfoValidators.entries;
         // Only fill the document info with valid entries from the spec.
         for (var key in validEntries) {
@@ -506,4 +506,3 @@ var PDFDocument = (function PDFDocumentClosure() {
 
   return PDFDocument;
 })();
-
