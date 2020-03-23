@@ -1,4 +1,10 @@
 
+1.1.12 / 2020-03-23
+==================
+
+**fixes**
+  * [[`4f017eb`](http://github.com/yuque/pdf2json/commit/4f017eb12dba2eafb6b315ee8acf2d39c5602b8a)] - fix: type error on dictInfo.has (fengmk2 <<fengmk2@gmail.com>>)
+
 1.1.11 / 2019-11-30
 ==================
 
